@@ -1,0 +1,415 @@
+*{
+    margin:0;
+    padding:0;
+ 
+}
+body{
+    font-family:"微软雅黑"; 
+    font-size:16px; 
+    color: #A80000; 
+    width:1000px;
+    margin-top:10px;
+    margin: 0 auto;
+   
+}
+
+a{
+    text-decoration: none;
+}
+#header{
+    height:210px;
+    width:1000px;
+    margin-top: 20px;
+    float:left;
+    margin-left: 15px;
+    position: relative;
+
+}
+#hr_line1{
+    position: absolute;
+    width:1000px;
+    background-color:#A80000;
+    height:2px;
+    border:none;
+    z-index:-999;
+}
+#img_icon img{
+    margin-left:10px;
+    margin-top:5px;
+    margin-bottom:5px;
+    width:196.5px;
+    height:61.5px;
+    float:left;
+}
+#img_bird img{
+    position: absolute;
+    right:0px;
+    top:-20px;
+    width:122.4px;
+    height:92.4px;
+    z-index:-1;
+}
+
+#nav{
+    float:right;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right: 30px;
+    line-height: 60px;
+    font-size:20px;
+    /*color:white;*/
+    letter-spacing: 2px;
+    text-align: center；
+
+}
+#nav a{
+    margin:14px;
+    font-weight: bold;
+}
+#nav a:link{
+    color: #673929;
+    text-decoration: none;
+}
+#nav a:visited{
+    color: #A80000;
+    text-decoration: none;
+}
+#nav a:hover{
+    text-shadow:2px 2px 4px #563D3D;
+    text-decoration: none;
+}
+
+#nav a:active{
+    color: #8B0F0F;
+    text-decoration: none;
+}
+
+#main:link{
+    color: #673929;
+    text-decoration: none;
+}
+#main a:visited{
+    color: #A80000;
+    text-decoration: none;
+}
+#main a:hover{
+    text-shadow:2px 2px 4px #563D3D;
+    text-decoration: none;
+}
+#main a:active{
+    color: #8B0F0F;
+    text-decoration: none;
+}
+#main{
+    clear:both; 
+    width: 1000px;
+     margin-left: 15px;
+/*    height:500px;*/
+    /*background-color: #CC6600;*/
+
+}
+#main_product{
+    width: 1000px;
+    height:270px;
+    background-color: #E6E6E6;
+    position: relative;
+}
+#main_product img{
+ 
+    position: absolute;
+    left:10px;
+   left: 80px;
+    top:-70px;
+    width:401.6px;
+    height:392px;
+    transform: scale(1);  
+    transition: all 1s ease 0s;  
+}
+
+#main_product img:hover{
+    transform: scale(1.2);  
+    transition: all 1s ease 0s;
+}
+
+.list_style{
+    float:right;
+    margin-right:20px ;
+    width:400px;
+    height:270px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.list_style li{
+    margin-top:18px;
+
+}
+.list_style .product_title{
+    font-size: 40px;
+    
+    list-style-type: none;
+
+}
+.list_style .product_detail{
+    margin-left: 20px;
+    color: #673929;
+    list-style-image:url(triangle.png);
+    
+
+}
+#hr_product{
+    
+    margin: 0 auto;
+    margin-top: 130px;
+    width:400px;
+    height:40px;
+    font-size: 40px;
+    text-align: center;
+    color:#673929;
+
+}
+.hr_left{
+    margin-top: 27px;
+    float: left;
+    width: 100px;
+    background-color:#A80000;
+    height:2px;
+    border:none;
+
+}
+.hr_right{
+    margin-top: 27px;
+    float: right;
+    width: 100px;
+    background-color:#A80000;
+    height:2px;
+    border:none;
+    
+}
+#product_hights{
+    margin-top: 70px;
+    width: 1000px;
+    height:400px;
+/*    background-color: #E6E6E6;*/
+    /*position: relative;*/
+}
+.hight_left{
+    float: left;
+    margin-left: 30px;
+    /*border:2px solid;*/
+    border-radius: 20px;
+    padding: 40px;
+    background-color: #E6E6E6;
+
+}
+.hight_left1{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.hight_left2{
+    font-size: 20px;
+    color: #673929;
+    margin-bottom: 30px;
+}
+.hight_right{
+    float: right;
+    margin-right: 30px;
+    /*border:2px solid;*/
+    border-radius: 20px;
+    padding: 40px;
+    background-color: #E6E6E6;
+}
+#product_hights img{
+   margin-left: 20px;
+    width:300px;
+    height:200px;
+}
+.list_style{
+    float:right;
+    margin-right:20px ;
+    width:400px;
+    height:270px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.list_style li{
+    margin-top:18px;
+
+}
+.list_style .product_title{
+    font-size: 40px;
+    
+    list-style-type: none;
+
+}
+.list_style .product_detail{
+    margin-left: 20px;
+    color: #673929;
+    list-style-image:url(triangle.png);
+    
+
+}
+
+
+#hr_tech{
+    clear:both;
+    margin: 0 auto;
+    margin-top: 100px;
+    width:400px;
+    height:40px;
+    font-size: 40px;
+    text-align: center;
+    color:#673929;
+
+}
+#tech_hights{
+    margin-top: 100px;
+    width: 1000px;
+
+}
+.tech1{
+    width: 1000px;
+    height:260px;
+    font-size: 20px;
+    color: #673929;
+    position: relative;
+    margin-left: 0px;
+
+
+}
+.tech1 p{
+    width: 400px;
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+.tech1_title{
+     font-size: 36px;
+     font-weight: bold;
+     color: #A80000;
+}
+.tech1 video{
+    width:460px;
+    position:absolute;
+    right:10px;
+    top:-20px;
+    border-radius: 20px;
+}
+
+
+.tech2{
+    width: 1000px;
+    height:260px;
+    font-size: 20px;
+    color: #673929;
+    margin-top: 100px;
+    position: relative;
+    margin-left: 0px;
+
+
+}
+.tech2_text{
+    position:absolute;
+    right:10px;
+    top:20px;
+    width: 400px;
+    margin-bottom: 20px;
+
+}
+.tech2 p{
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+.tech2_title{
+     font-size: 36px;
+     font-weight: bold;
+     color: #A80000;
+}
+.tech2 video{
+    width:460px;
+    border-radius: 20px;
+    
+ 
+}
+
+.tech3{
+    width: 1000px;
+    height:260px;
+    margin-top: 140px;
+    font-size: 20px;
+    color: #673929;
+    position: relative;
+    margin-left: 0px;
+
+
+}
+.tech3 p{
+    width: 400px;
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+.tech3_title{
+     font-size: 36px;
+     font-weight: bold;
+     color: #A80000;
+}
+.tech3 video{
+    width:460px;
+    position:absolute;
+    right:10px;
+    top:-20px;
+    border-radius: 20px;
+}
+
+.tech4{
+    width: 1000px;
+    height:260px;
+    font-size: 20px;
+    color: #673929;
+    margin-top: 100px;
+    position: relative;
+    margin-left: 0px;
+
+
+}
+.tech4_text{
+    position:absolute;
+    right:10px;
+    top:20px;
+    width: 400px;
+    margin-bottom: 20px;
+
+}
+.tech4 p{
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+.tech4_title{
+     font-size: 36px;
+     font-weight: bold;
+     color: #A80000;
+}
+.tech4 video{
+    width:460px;
+    border-radius: 20px;
+    
+ 
+}
+
+
+#footer{
+    height:60px; 
+    line-height: 60px;
+    font-size: 13px;
+    clear:both; /*新加代码*/
+    margin-top: 80px;
+    text-align: center;
+
+}
+#footer a{
+    text-decoration: none;
+    color:#673929;
+}
